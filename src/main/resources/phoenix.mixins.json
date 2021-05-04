@@ -2,7 +2,9 @@
   "required": true,
   "package": "tryalleaf.phoenix.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": [
+    "ElytraFeatureRendererMixin"
+  ],
   "client": [],
   "server": [],
   "injectors": {

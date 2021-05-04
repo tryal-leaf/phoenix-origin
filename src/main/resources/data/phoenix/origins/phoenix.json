@@ -12,7 +12,7 @@
     "phoenix:water_weakness",
     "origins:more_kinetic_damage"
   ],
-  "icon": "minecraft:tube_coral_fan",
+  "icon": "phoenix:phoenix_elytra",
   "order": 0,
   "impact": 3,
   "name": "Phoenix",
