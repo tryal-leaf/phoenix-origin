@@ -1,0 +1,75 @@
+{
+  "type": "origins:multiple",
+  "is_night": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "update": {
+    "type": "origins:action_over_time",
+    "interval": 60,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:if_else",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:daytime"
+              },
+              {
+                "type": "origins:resource",
+                "resource": "phoenix:rejuvenation_is_night",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:resource",
+                "resource": "phoenix:rebirth_state",
+                "comparison": "==",
+                "compare_to": 1
+              }
+            ]
+          },
+          "if_action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "function phoenix:rebirth_full_size",
+                "permission_level": 4
+              },
+              {
+                "type": "origins:heal",
+                "amount": 6
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:if_else",
+          "condition": {
+            "type": "origins:daytime"
+          },
+          "if_action": {
+            "type": "origins:change_resource",
+            "resource": "phoenix:rejuvenation_is_night",
+            "change": -1
+          },
+          "else_action": {
+            "type": "origins:change_resource",
+            "resource": "phoenix:rejuvenation_is_night",
+            "change": 1
+          }
+        }
+      ]
+    }
+  },
+  "name": "Rejuvenation",
+  "description": "At sunrise, if you were in your Reborn form, you will return to Normal form."
+}

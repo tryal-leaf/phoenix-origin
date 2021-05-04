@@ -1,0 +1,193 @@
+{
+  "type": "origins:multiple",
+  "rabbit_stew": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:rabbit_stew"
+      }
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -6.0
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -10
+    }
+  },
+  "cp_cb": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:cooked_porkchop"
+        },
+        {
+          "item": "minecraft:cooked_beef"
+        }
+      ]
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -4.0
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -18.8
+    }
+  },
+  "pumpkin_pie": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:pumpkin_pie"
+      }
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -4.0
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -2.8
+    }
+  },
+  "bs_cc_ms_ss": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:beetroot_soup"
+        },
+        {
+          "item": "minecraft:cooked_chicken"
+        },
+        {
+          "item": "minecraft:mushroom_stew"
+        },
+        {
+          "item": "minecraft:suspicious_stew"
+        }
+      ]
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -2.0
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -5.2
+    }
+  },
+  "cooked_salmon": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:cooked_salmon"
+      }
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -4.0
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -7.6
+    }
+  },
+  "bp_b_cc_cr": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:baked_potato"
+        },
+        {
+          "item": "minecraft:bread"
+        },
+        {
+          "item": "minecraft:cooked_cod"
+        },
+        {
+          "item": "minecraft:cooked_rabbit"
+        }
+      ]
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -3.0
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -4.0
+    }
+  },
+  "a_cf": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:apple"
+        },
+        {
+          "item": "minecraft:chorus_fruit"
+        }
+      ]
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -0.4
+    }
+  },
+  "carrot": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -1.6
+    }
+  },
+  "spider_eye": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "saturation_modifier": {
+      "name": "Reduced saturation points",
+      "operation": "addition",
+      "value": -1.2
+    }
+  },
+  "name": "Golden Diet",
+  "description": "All foods restore very little hunger and saturation, except for golden foods, which function like normal."
+}

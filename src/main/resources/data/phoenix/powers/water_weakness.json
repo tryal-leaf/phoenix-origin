@@ -1,0 +1,35 @@
+{
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 30,
+  "effect": {
+    "effect": "minecraft:slowness",
+    "amplifier": 3,
+    "is_ambient": true,
+    "show_particles": true,
+    "show_icon": true
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": "0.0"
+          },
+          {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+          }
+        ]
+      }
+    ]
+  },
+  "name": "Water Weakness",
+  "description": "You have decreased speed in water."
+}

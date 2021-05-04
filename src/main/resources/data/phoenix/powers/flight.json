@@ -1,0 +1,37 @@
+{
+  "type": "origins:multiple",
+  "wings": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "soul_fire_particle": {
+    "type": "origins:particle",
+    "particle": "minecraft:soul_fire_flame",
+    "frequency": 4,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "flame_particle": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 4,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "name": "Flight",
+  "description": "You have fiery wings. Only available in Normal form."
+}

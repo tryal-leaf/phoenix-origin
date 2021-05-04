@@ -1,0 +1,108 @@
+{
+  "type": "origins:multiple",
+  "state": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "change_health": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "function phoenix:rebirth_full_size",
+      "permission_level": 4
+    },
+    "entity_action_added": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "TL-phoenix-state",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "function phoenix:rebirth_full_size",
+            "permission_level": 4
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "TL-phoenix-state",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "function phoenix:rebirth_half_size",
+            "permission_level": 4
+          }
+        }
+      ]
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "function phoenix:rebirth_full_size",
+      "permission_level": 4
+    },
+    "entity_action_removed": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "attribute @s minecraft:generic.max_health base set 20",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:height 1 @s",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:width 1 @s",
+          "permission_level": 4
+        }
+      ]
+    }
+  },
+  "prevent_death": {
+    "type": "origins:prevent_death",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:absorption",
+            "duration": 1,
+            "amplifier": 2
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "function phoenix:rebirth_half_size",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:heal",
+          "amount": 6
+        }
+      ]
+    }
+  },
+  "name": "Rebirth",
+  "description": "In your Normal form, you have 5 hearts and can use Flight and Ascent. If you lose all 5 hearts, you shrink to your Reborn form. This form is 1 block tall, can use Glide, and only has 3 hearts. You return to Normal form upon Rejuvenation or death."
+}

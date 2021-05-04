@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "phoenix",
+  "version": "${version}",
+  "name": "Phoenix Origin",
+  "description": "Adds the Phoenix origin",
+  "authors": [
+    "tryal-leaf"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/tryal-leaf/phoenix-origin"
+  },
+  "license": "MIT",
+  "icon": "assets/phoenix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tryalleaf.phoenix.Phoenix"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "phoenix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "origins": ">=0.6.0",
+    "pehkui": ">=2.0.0"
+  }
+}

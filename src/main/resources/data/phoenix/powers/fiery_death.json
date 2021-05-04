@@ -1,0 +1,61 @@
+{
+  "type": "origins:multiple",
+  "spawn_fire": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:health",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "phoenix:fiery_death_should_spawn",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run fill ~-1 ~-0.1 ~ ~1 ~2 ~ minecraft:fire replace minecraft:air",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run fill ~ ~-0.1 ~-1 ~ ~2 ~1 minecraft:fire replace minecraft:air",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "phoenix:fiery_death_should_spawn",
+          "change": 1
+        }
+      ]
+    },
+    "interval": 1
+  },
+  "should_spawn": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 2,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "reset_should_spawn": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "phoenix:fiery_death_should_spawn",
+      "change": -1
+    }
+  },
+  "name": "Fiery Death",
+  "description": "Your body sets the ground on fire when you die."
+}
