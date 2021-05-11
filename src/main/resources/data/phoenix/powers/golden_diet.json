@@ -111,6 +111,20 @@
       "value": -7.6
     }
   },
+  "honey_bottle": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "food_modifier": {
+      "name": "Reduced food points",
+      "operation": "addition",
+      "value": -4.0
+    }
+  },
   "bp_b_cc_cr": {
     "type": "origins:modify_food",
     "item_condition": {
