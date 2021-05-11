@@ -25,13 +25,13 @@
               {
                 "type": "origins:resource",
                 "resource": "phoenix:rejuvenation_is_night",
-                "comparison": "==",
+                "comparison": ">=",
                 "compare_to": 1
               },
               {
                 "type": "origins:resource",
                 "resource": "phoenix:rebirth_state",
-                "comparison": "==",
+                "comparison": ">=",
                 "compare_to": 1
               }
             ]

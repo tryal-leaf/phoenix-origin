@@ -7,13 +7,13 @@
       "conditions": [
         {
           "type": "origins:health",
-          "comparison": "==",
+          "comparison": "<=",
           "compare_to": 0
         },
         {
           "type": "origins:resource",
           "resource": "phoenix:fiery_death_should_spawn",
-          "comparison": "==",
+          "comparison": "<=",
           "compare_to": 0
         }
       ]

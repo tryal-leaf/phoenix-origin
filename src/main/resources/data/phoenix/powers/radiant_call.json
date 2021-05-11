@@ -5,7 +5,7 @@
     "condition": {
       "type": "origins:resource",
       "resource": "phoenix:radiant_call_cooldown",
-      "comparison": "==",
+      "comparison": "<=",
       "compare_to": 0
     },
     "entity_action": {

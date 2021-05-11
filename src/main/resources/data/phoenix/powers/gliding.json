@@ -21,7 +21,7 @@
   "condition": {
     "type": "origins:resource",
     "resource": "phoenix:rebirth_state",
-    "comparison": "==",
+    "comparison": ">=",
     "compare_to": 1
   }
 }
