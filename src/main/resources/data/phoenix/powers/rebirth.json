@@ -102,7 +102,5 @@
         }
       ]
     }
-  },
-  "name": "Rebirth",
-  "description": "In your Normal form, you have 5 hearts and can use Flight and Ascent. If you lose all 5 hearts, you shrink to your Reborn form. This form is 1 block tall, can use Glide, and only has 3 hearts. You return to Normal form upon Rejuvenation or death."
+  }
 }

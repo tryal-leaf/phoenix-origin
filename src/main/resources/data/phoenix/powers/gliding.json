@@ -23,7 +23,5 @@
     "resource": "phoenix:rebirth_state",
     "comparison": "==",
     "compare_to": 1
-  },
-  "name": "Gliding",
-  "description": "You gain Slow Falling and Jump Boost. Only available in Reborn form."
+  }
 }

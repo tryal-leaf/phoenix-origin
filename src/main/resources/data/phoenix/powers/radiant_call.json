@@ -31,7 +31,5 @@
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
       "bar_index": 8
     }
-  },
-  "name": "Radiant Call",
-  "description": "Fully heals every player and mob within a 12 block radius."
+  }
 }

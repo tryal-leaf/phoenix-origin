@@ -15,7 +15,5 @@
   "key": {
     "key": "key.origins.primary_active",
     "continuous": true
-  },
-  "name": "Ascent",
-  "description": "You are able to launch yourself into the air. Only available in Normal form."
+  }
 }

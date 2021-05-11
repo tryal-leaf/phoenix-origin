@@ -15,7 +15,5 @@
   ],
   "icon": "phoenix:phoenix_elytra",
   "order": 0,
-  "impact": 3,
-  "name": "Phoenix",
-  "description": "Flying from the pages of mythology, the phoenix is a legendary firebird that can never truly die."
+  "impact": 3
 }

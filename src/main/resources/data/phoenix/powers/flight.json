@@ -40,7 +40,5 @@
       "comparison": "==",
       "compare_to": 0
     }
-  },
-  "name": "Flight",
-  "description": "You have fiery wings. Only available in Normal form."
+  }
 }
