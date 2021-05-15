@@ -9,12 +9,10 @@
       }
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
       "value": -6.0
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -10
     }
@@ -33,14 +31,12 @@
       ]
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
       "value": -4.0
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
-      "value": -18.8
+      "value": -10.8
     }
   },
   "pumpkin_pie": {
@@ -52,12 +48,10 @@
       }
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
       "value": -4.0
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -2.8
     }
@@ -82,31 +76,35 @@
       ]
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
       "value": -2.0
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -5.2
     }
   },
-  "cooked_salmon": {
+  "cm_cs": {
     "type": "origins:modify_food",
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "item": "minecraft:cooked_salmon"
+        "type": "origins:ingredient",
+        "ingredient": [
+          {
+            "item": "minecraft:cooked_mutton"
+          },
+          {
+            "item": "minecraft:cooked_salmon"
+          }
+        ]
       }
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
-      "value": -4.0
+      "value": -2.0
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -7.6
     }
@@ -120,9 +118,8 @@
       }
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
-      "value": -4.0
+      "value": -2.0
     }
   },
   "bp_b_cc_cr": {
@@ -145,12 +142,10 @@
       ]
     },
     "food_modifier": {
-      "name": "Reduced food points",
       "operation": "addition",
-      "value": -3.0
+      "value": -1.0
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -4.0
     }
@@ -169,7 +164,6 @@
       ]
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -0.4
     }
@@ -183,7 +177,6 @@
       }
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -1.6
     }
@@ -197,7 +190,6 @@
       }
     },
     "saturation_modifier": {
-      "name": "Reduced saturation points",
       "operation": "addition",
       "value": -1.2
     }
