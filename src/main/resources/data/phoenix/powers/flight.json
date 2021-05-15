@@ -19,21 +19,10 @@
       "compare_to": 0
     }
   },
-  "soul_fire_particle": {
-    "type": "origins:particle",
-    "particle": "minecraft:soul_fire_flame",
-    "frequency": 4,
-    "condition": {
-      "type": "origins:resource",
-      "resource": "phoenix:rebirth_state",
-      "comparison": "<=",
-      "compare_to": 0
-    }
-  },
   "flame_particle": {
     "type": "origins:particle",
     "particle": "minecraft:flame",
-    "frequency": 4,
+    "frequency": 10,
     "condition": {
       "type": "origins:resource",
       "resource": "phoenix:rebirth_state",
