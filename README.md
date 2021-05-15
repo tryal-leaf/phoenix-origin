@@ -6,7 +6,7 @@ An add-on to the Minecraft [Origins](https://www.curseforge.com/minecraft/mc-mod
 >
 > Flying from the pages of mythology, the phoenix is a legendary firebird that can never truly die.
 >
-> 🟢 **Radiant Call:** Fully heals every player and mob within a 12 block radius.  
+> 🟢 **Radiant Call:** Fully heals every player and mob within a 12 block radius. Triggers automatically every 5 minutes.  
 > 🟢 **Helios' Blessing:** When under direct sunlight, you receive a speed boost on land and in the air.  
 > 🟢 **Flight:** You have fiery wings. Only available in Normal Form.  
 > 🟢 **Ascent:** You are able to launch yourself into the air. Only available in Normal Form.  

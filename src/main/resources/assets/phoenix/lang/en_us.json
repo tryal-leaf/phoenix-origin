@@ -21,7 +21,7 @@
   "power.phoenix.helios_blessing.description": "When under direct sunlight, you receive a speed boost on land and in the air.",
 
   "power.phoenix.radiant_call.name": "Radiant Call",
-  "power.phoenix.radiant_call.description": "Fully heals every player and mob within a 12 block radius.",
+  "power.phoenix.radiant_call.description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 5 minutes.",
 
   "power.phoenix.radiant_call_active.name": "Radiant Call",
   "power.phoenix.radiant_call_active.description": "Fully heals every player and mob within a 12 block radius.",
