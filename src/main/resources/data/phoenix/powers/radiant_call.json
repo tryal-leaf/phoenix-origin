@@ -31,5 +31,13 @@
       "sprite_location": "phoenix:textures/gui/resource_bar.png",
       "bar_index": 1
     }
+  },
+  "reset_on_respawn": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "phoenix:radiant_call_cooldown",
+      "change": 6000
+    }
   }
 }
