@@ -8,7 +8,8 @@
   },
   "cooldown": 600,
   "hud_render": {
-    "bar_index": 4
+    "sprite_location": "phoenix:textures/gui/resource_bar.png",
+    "bar_index": 0
   },
   "sound": "minecraft:entity.parrot.fly",
   "speed": 2,
