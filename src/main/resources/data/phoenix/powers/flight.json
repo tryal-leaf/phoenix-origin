@@ -22,7 +22,7 @@
   "flame_particle": {
     "type": "origins:particle",
     "particle": "minecraft:flame",
-    "frequency": 10,
+    "frequency": 8,
     "condition": {
       "type": "origins:resource",
       "resource": "phoenix:rebirth_state",
