@@ -88,17 +88,14 @@
     "type": "origins:modify_food",
     "item_condition": {
       "type": "origins:ingredient",
-      "ingredient": {
-        "type": "origins:ingredient",
-        "ingredient": [
-          {
-            "item": "minecraft:cooked_mutton"
-          },
-          {
-            "item": "minecraft:cooked_salmon"
-          }
-        ]
-      }
+      "ingredient": [
+        {
+          "item": "minecraft:cooked_mutton"
+        },
+        {
+          "item": "minecraft:cooked_salmon"
+        }
+      ]
     },
     "food_modifier": {
       "operation": "addition",
