@@ -20,4 +20,4 @@ bin/
 #fabric
 run/
 
-.ignore/
+datapack-resourcepack/*.zip
