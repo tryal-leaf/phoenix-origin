@@ -29,7 +29,7 @@ An add-on to the Minecraft [Origins](https://www.curseforge.com/minecraft/mc-mod
 
 ### Credits
 
-[Idea](https://www.reddit.com/r/OriginsSMP/comments/mznl52/phoenix_origin_for_technoblade/) by DisquietedStarlight, implementation by tryal-leaf.
+[Idea](https://www.reddit.com/r/OriginsSMP/comments/mznl52/phoenix_origin_for_technoblade/) and QA help by DisquietedStarlight, implementation by tryal-leaf.
 
 ### Source Code
 
