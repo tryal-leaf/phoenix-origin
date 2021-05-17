@@ -1,0 +1,194 @@
+{
+  "type": "origins:multiple",
+  "rabbit_stew": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:rabbit_stew"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -6.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -10
+    }
+  },
+  "cp_cb": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:cooked_porkchop"
+        },
+        {
+          "item": "minecraft:cooked_beef"
+        }
+      ]
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -4.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -10.8
+    }
+  },
+  "pumpkin_pie": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:pumpkin_pie"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -4.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -2.8
+    }
+  },
+  "bs_cc_ms_ss": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:beetroot_soup"
+        },
+        {
+          "item": "minecraft:cooked_chicken"
+        },
+        {
+          "item": "minecraft:mushroom_stew"
+        },
+        {
+          "item": "minecraft:suspicious_stew"
+        }
+      ]
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -2.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -5.2
+    }
+  },
+  "cm_cs": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:cooked_mutton"
+        },
+        {
+          "item": "minecraft:cooked_salmon"
+        }
+      ]
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -2.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -7.6
+    }
+  },
+  "honey_bottle": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -2.0
+    }
+  },
+  "bp_b_cc_cr": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:baked_potato"
+        },
+        {
+          "item": "minecraft:bread"
+        },
+        {
+          "item": "minecraft:cooked_cod"
+        },
+        {
+          "item": "minecraft:cooked_rabbit"
+        }
+      ]
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -1.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -4.0
+    }
+  },
+  "a_cf": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:apple"
+        },
+        {
+          "item": "minecraft:chorus_fruit"
+        }
+      ]
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -0.4
+    }
+  },
+  "carrot": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -1.6
+    }
+  },
+  "spider_eye": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -1.2
+    }
+  }
+}

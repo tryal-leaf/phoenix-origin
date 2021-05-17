@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+  "elytra": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  },
+  "custom_wings": {
+    "type": "origins:simple",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  },
+  "flame_particle": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 8,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "phoenix:rebirth_state",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  }
+}

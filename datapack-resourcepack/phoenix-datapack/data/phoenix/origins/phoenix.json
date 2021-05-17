@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "phoenix:rebirth",
+    "phoenix:rejuvenation",
+    "phoenix:radiant_call",
+    "phoenix:helios_blessing",
+    "phoenix:flight",
+    "phoenix:ascent",
+    "phoenix:gliding",
+    "phoenix:fiery_death",
+    "phoenix:golden_diet",
+    "phoenix:water_weakness",
+    "origins:more_kinetic_damage"
+  ],
+  "icon": "minecraft:tube_coral_fan",
+  "order": 0,
+  "impact": 3
+}

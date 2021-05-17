@@ -1,0 +1,37 @@
+{
+  "origin.phoenix.phoenix.name": "Phoenix",
+  "origin.phoenix.phoenix.description": "Flying from the pages of mythology, the phoenix is a legendary firebird that can never truly die.",
+
+  "power.phoenix.ascent.name": "Ascent",
+  "power.phoenix.ascent.description": "You are able to launch yourself into the air. Only available in Normal Form.",
+
+  "power.phoenix.fiery_death.name": "Fiery Death",
+  "power.phoenix.fiery_death.description": "Your body sets the ground on fire when you die.",
+
+  "power.phoenix.flight.name": "Flight",
+  "power.phoenix.flight.description": "You have fiery wings. Only available in Normal Form.",
+
+  "power.phoenix.gliding.name": "Gliding",
+  "power.phoenix.gliding.description": "You gain slow falling and jump boost. Only available in Reborn Form.",
+
+  "power.phoenix.golden_diet.name": "Golden Diet",
+  "power.phoenix.golden_diet.description": "All foods restore very little hunger and saturation, except for golden foods, which function like normal.",
+
+  "power.phoenix.helios_blessing.name": "Helios' Blessing",
+  "power.phoenix.helios_blessing.description": "When under direct sunlight, you receive a speed boost on land and in the air.",
+
+  "power.phoenix.radiant_call.name": "Radiant Call",
+  "power.phoenix.radiant_call.description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 5 minutes.",
+
+  "power.phoenix.radiant_call_active.name": "Radiant Call",
+  "power.phoenix.radiant_call_active.description": "Fully heals every player and mob within a 12 block radius.",
+
+  "power.phoenix.rebirth.name": "Rebirth",
+  "power.phoenix.rebirth.description": "In your Normal Form, you have 5 hearts and can use Flight and Ascent. If you lose all 5 hearts, you shrink to your Reborn Form. This form is 1 block tall, can use Glide, and has only 3 hearts. You return to Normal Form upon Rejuvenation or death.",
+
+  "power.phoenix.rejuvenation.name": "Rejuvenation",
+  "power.phoenix.rejuvenation.description": "At sunrise, if you were in your Reborn Form, you will return to Normal Form.",
+
+  "power.phoenix.water_weakness.name": "Water Weakness",
+  "power.phoenix.water_weakness.description": "You have decreased speed in water."
+}

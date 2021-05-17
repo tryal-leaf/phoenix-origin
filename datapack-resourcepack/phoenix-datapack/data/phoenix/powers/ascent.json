@@ -1,0 +1,20 @@
+{
+  "type": "origins:launch",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "phoenix:rebirth_state",
+    "comparison": "<=",
+    "compare_to": 0
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "sprite_location": "phoenix:textures/gui/resource_bar.png",
+    "bar_index": 0
+  },
+  "sound": "minecraft:entity.parrot.fly",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  }
+}
