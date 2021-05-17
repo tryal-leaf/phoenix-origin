@@ -27,6 +27,15 @@ An add-on to the Minecraft [Origins](https://www.curseforge.com/minecraft/mc-mod
 * [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
 * [Pehkui](https://www.curseforge.com/minecraft/mc-mods/pehkui)
 
+### Download
+
+The latest downloads can be found in the [releases page](https://github.com/tryal-leaf/phoenix-origin/releases). There are two versions:
+
+1. The modpack, `phoenix-X.X.X.jar`, contains a custom elytra texture and a custom icon.
+2. The datapack, `phoenix-datapack.zip`, uses the vanilla elytra texture.
+
+It's highly recommended to use the modpack version for the full experience.
+
 ### Credits
 
 [Idea](https://www.reddit.com/r/OriginsSMP/comments/mznl52/phoenix_origin_for_technoblade/) and QA help by DisquietedStarlight, implementation by tryal-leaf.
