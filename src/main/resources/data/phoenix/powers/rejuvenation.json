@@ -20,7 +20,10 @@
             "type": "origins:and",
             "conditions": [
               {
-                "type": "origins:daytime"
+                "type": "origins:command",
+                "command": "time query daytime",
+                "comparison": "<",
+                "compare_to": "12544"
               },
               {
                 "type": "origins:resource",
@@ -54,7 +57,10 @@
         {
           "type": "origins:if_else",
           "condition": {
-            "type": "origins:daytime"
+            "type": "origins:command",
+            "command": "time query daytime",
+            "comparison": "<",
+            "compare_to": "12544"
           },
           "if_action": {
             "type": "origins:change_resource",
