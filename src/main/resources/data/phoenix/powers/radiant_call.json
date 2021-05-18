@@ -39,5 +39,7 @@
       "resource": "phoenix:radiant_call_cooldown",
       "change": 6000
     }
-  }
+  },
+  "name": "Radiant Call",
+  "description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 5 minutes."
 }

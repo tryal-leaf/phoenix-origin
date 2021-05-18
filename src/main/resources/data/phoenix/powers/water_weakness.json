@@ -3,5 +3,7 @@
   "modifier": {
     "operation": "multiply_base",
     "value": -0.15
-  }
+  },
+  "name": "Water Weakness",
+  "description": "You have decreased speed in water."
 }

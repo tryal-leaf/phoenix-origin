@@ -13,5 +13,7 @@
   "key": {
     "key": "key.origins.secondary_active"
   },
+  "name": "Radiant Call",
+  "description": "Fully heals every player and mob within a 12 block radius.",
   "hidden": true
 }

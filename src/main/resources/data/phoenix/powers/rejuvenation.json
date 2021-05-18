@@ -69,5 +69,7 @@
         }
       ]
     }
-  }
+  },
+  "name": "Rejuvenation",
+  "description": "At sunrise, if you were in your Reborn Form, you will return to Normal Form."
 }

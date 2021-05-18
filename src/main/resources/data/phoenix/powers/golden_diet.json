@@ -190,5 +190,7 @@
       "operation": "addition",
       "value": -1.2
     }
-  }
+  },
+  "name": "Golden Diet",
+  "description": "All foods restore very little hunger and saturation, except for golden foods, which function like normal."
 }

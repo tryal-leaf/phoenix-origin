@@ -28,5 +28,7 @@
         "inverted": true
       }
     ]
-  }
+  },
+  "name": "Helios' Blessing",
+  "description": "When under direct sunlight, you receive a speed boost on land and in the air."
 }
