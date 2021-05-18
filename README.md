@@ -29,7 +29,6 @@ The latest downloads can be found in the [releases page](https://github.com/trya
 
 It is highly recommended to use the modpack version for the full experience.
 
-
 ### Requirements
 
 * [Fabric loader](https://fabricmc.net/)
