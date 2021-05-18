@@ -20,13 +20,6 @@ An add-on to the Minecraft [Origins](https://www.curseforge.com/minecraft/mc-mod
 > 🔴 **Water Weakness:** You have decreased speed in water.  
 > 🔴 **Brittle Bones:** You take more damage from falling and flying into blocks.  
 
-### Requirements
-
-* [Fabric loader](https://fabricmc.net/)
-* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-* [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
-* [Pehkui](https://www.curseforge.com/minecraft/mc-mods/pehkui)
-
 ### Download
 
 The latest downloads can be found in the [releases page](https://github.com/tryal-leaf/phoenix-origin/releases). There are two versions:
@@ -35,6 +28,14 @@ The latest downloads can be found in the [releases page](https://github.com/trya
 2. The datapack, `phoenix-datapack.zip`, uses the vanilla elytra texture and standard UI elements.
 
 It is highly recommended to use the modpack version for the full experience.
+
+
+### Requirements
+
+* [Fabric loader](https://fabricmc.net/)
+* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+* [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
+* [Pehkui](https://www.curseforge.com/minecraft/mc-mods/pehkui)
 
 ### Credits
 
