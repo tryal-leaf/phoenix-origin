@@ -31,10 +31,10 @@ An add-on to the Minecraft [Origins](https://www.curseforge.com/minecraft/mc-mod
 
 The latest downloads can be found in the [releases page](https://github.com/tryal-leaf/phoenix-origin/releases). There are two versions:
 
-1. The modpack, `phoenix-X.X.X.jar`, contains a custom elytra texture and a custom icon.
-2. The data pack + resource pack, `phoenix-datapack.zip` and `phoenix-resourcepack.zip`, uses the vanilla elytra texture.
+1. The modpack, `phoenix-X.X.X.jar`, contains a custom elytra texture and custom UI elements.
+2. The datapack, `phoenix-datapack.zip`, uses the vanilla elytra texture and standard UI elements.
 
-It's highly recommended to use the modpack version for the full experience.
+It is highly recommended to use the modpack version for the full experience.
 
 ### Credits
 

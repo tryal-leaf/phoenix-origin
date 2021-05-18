@@ -19,5 +19,3 @@ bin/
 
 #fabric
 run/
-
-datapack-resourcepack/**/**.zip

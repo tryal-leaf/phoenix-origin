@@ -55,5 +55,7 @@
       "resource": "phoenix:fiery_death_should_spawn",
       "change": -1
     }
-  }
+  },
+  "name": "Fiery Death",
+  "description": "Your body sets the ground on fire when you die."
 }

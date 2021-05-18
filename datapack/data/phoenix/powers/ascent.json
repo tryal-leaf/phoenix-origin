@@ -8,13 +8,14 @@
   },
   "cooldown": 600,
   "hud_render": {
-    "sprite_location": "phoenix:textures/gui/resource_bar.png",
-    "bar_index": 0
+    "bar_index": 4
   },
   "sound": "minecraft:entity.parrot.fly",
   "speed": 2,
   "key": {
     "key": "key.origins.primary_active",
     "continuous": true
-  }
+  },
+  "name": "Ascent",
+  "description": "You are able to launch yourself into the air. Only available in Normal Form."
 }
