@@ -33,6 +33,7 @@ It is highly recommended to use the modpack version for the full experience.
 ### Requirements
 
 * Minecraft version 1.16.5
+  * **_There are currently no plans to update to newer versions._**
 * [Fabric loader](https://fabricmc.net/)
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
