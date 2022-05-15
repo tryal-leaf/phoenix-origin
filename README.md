@@ -10,7 +10,8 @@ An add-on to the Minecraft [Origins](https://www.curseforge.com/minecraft/mc-mod
 > 🟢 **Helios' Blessing:** When under direct sunlight, you receive a speed boost on land and in the air.  
 > 🟢 **Flight:** You have fiery wings. Only available in Normal Form.  
 > 🟢 **Ascent:** You are able to launch yourself into the air. Only available in Normal Form.  
-> 🟢 **Gliding:** You gain slow falling and jump boost. Only available in Reborn Form.
+> 🟢 **Gliding:** You gain slow falling and jump boost. Only available in Reborn Form.  
+> 🟢 **Fire Immunity:** You are immune to all types of fire damage.
 >
 > 🟡 **Rebirth:** In your Normal Form, you have 5 hearts and can use Flight and Ascent. If you lose all 5 hearts, you shrink to your Reborn Form. This form is 1 block tall, can use Glide, and has only 3 hearts. You return to Normal Form upon Rejuvenation or death.  
 > 🟡 **Rejuvenation:** At sunrise, if you were in your Reborn Form, you will return to Normal Form.  
@@ -31,6 +32,7 @@ It is highly recommended to use the modpack version for the full experience.
 
 ### Requirements
 
+* Minecraft version 1.16.5
 * [Fabric loader](https://fabricmc.net/)
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)

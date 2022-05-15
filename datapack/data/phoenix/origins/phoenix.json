@@ -10,7 +10,8 @@
     "phoenix:fiery_death",
     "phoenix:golden_diet",
     "phoenix:water_weakness",
-    "origins:more_kinetic_damage"
+    "origins:more_kinetic_damage",
+    "origins:fire_immunity"
   ],
   "icon": "minecraft:tube_coral_fan",
   "order": 0,

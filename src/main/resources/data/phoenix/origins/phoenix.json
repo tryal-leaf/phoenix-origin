@@ -10,7 +10,8 @@
     "phoenix:fiery_death",
     "phoenix:golden_diet",
     "phoenix:water_weakness",
-    "origins:more_kinetic_damage"
+    "origins:more_kinetic_damage",
+    "origins:fire_immunity"
   ],
   "icon": "phoenix:phoenix_elytra",
   "order": 0,
